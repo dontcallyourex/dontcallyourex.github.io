@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.dontcallyourex.app",
+      "sha256_cert_fingerprints": [
+        "11:EE:42:46:03:D3:AF:32:7A:B5:4F:C1:BA:E8:BD:36:76:EB:B0:AD:1A:97:83:6F:1D:67:22:4A:44:96:31:03"
+      ]
+    }
+  }
+]
