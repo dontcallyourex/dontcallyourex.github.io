@@ -1,0 +1,4 @@
+User-agent: *
+# Until release (Dont-Call-Your-Ex docs/plan.md, point 8): remove the Disallow line.
+Allow: /.well-known/
+Disallow: /
