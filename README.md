@@ -9,8 +9,9 @@ Public website of the Don't Call Your Ex app (the app's code is private).
 - `/.well-known/assetlinks.json`: Android App Links verification. Contains
   the SHA-256 of the signing certificate: debug key now; add the Google Play
   app signing key before release.
-- `/.well-known/apple-app-site-association`: iOS Universal Links. Replace
-  `TEAMID` with the Apple Developer Team ID in the iOS stage.
+- `/.well-known/apple-app-site-association`: iOS Universal Links, for the app
+  ID `<Apple Developer Team ID>.com.dontcallyourex.app`. iOS reads it through
+  Apple's CDN, which picks up a change with a delay (up to a day).
 - `.nojekyll`: makes GitHub Pages serve the `.well-known` folder.
 
 Plain static files, no build step.

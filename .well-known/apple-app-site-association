@@ -2,7 +2,7 @@
   "applinks": {
     "details": [
       {
-        "appIDs": ["TEAMID.com.dontcallyourex.app"],
+        "appIDs": ["ZPPQGNZ33W.com.dontcallyourex.app"],
         "components": [
           { "/": "/open-this-instead*" }
         ]
