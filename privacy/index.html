@@ -11,7 +11,7 @@
 <body>
   <main>
     <h1>Privacy Policy</h1>
-    <p class="muted">Don't Call Your Ex · Effective date: October 26, 2026</p>
+    <p class="muted">Don't Call Your Ex · Effective date: November 16, 2026</p>
 
     <p>Don't Call Your Ex ("the app") is built to work entirely on your
       device. We do not run servers, we do not have user accounts, and we do
@@ -26,13 +26,16 @@
         adds an "Open this instead" link to the contact.</li>
       <li>It keeps a copy of the original numbers so it can restore them. This
         copy is stored on your device: in the app's private storage and in a
-        hidden field of the protected contact, so the numbers can be restored
-        even if the app is reinstalled.</li>
+        backup copy, so the numbers can be restored even if the app is
+        reinstalled. On Android the backup copy is a hidden field of the
+        protected contact. On iPhone and iPad it is kept in the device's
+        Keychain, set to stay on this device only: it is never synced to
+        iCloud.</li>
     </ul>
-    <p>The hidden field is removed when you turn protection off. If you
-      uninstall the app while protection is on, it stays in the contact so the
-      numbers can be restored after reinstalling; deleting the contact also
-      removes it.</p>
+    <p>The backup copy is removed when you turn protection off. If you
+      uninstall the app while protection is on, it stays on your device so the
+      numbers can be restored after reinstalling. On Android, deleting the
+      contact also removes it.</p>
     <p>If you pick your trusted person or your redirect number from your
       contacts, the app reads only
       the name and number you select. This does not need the contacts
@@ -48,7 +51,8 @@
       itself.</p>
 
     <h2>Calls</h2>
-    <p>Screening incoming calls is optional and off by default. If you choose
+    <p>Screening incoming calls is optional and off by default.</p>
+    <p>On Android, if you choose
       to silence or block calls from protected contacts, your phone asks you
       to make the app your call screening app. The app then compares the
       number of each incoming call with the original numbers of your protected
@@ -57,7 +61,13 @@
     <p>If you turn on "Show when your ex tries to call you", the app records
       the time of each screened call and which protected contact it came
       from, without the number, on your device only, for 30 days. Turning it off deletes these
-      records.</p>
+      records. This option is on Android only.</p>
+    <p>On iPhone, if you choose to block calls from protected contacts, you
+      turn the app on in the phone's call blocking settings. The app then
+      gives iOS the list of the original numbers of your protected contacts,
+      and iOS blocks calls from them by itself. The list stays on your
+      device, in the Keychain, and is emptied when you stop blocking. The app
+      never sees your calls or your call history.</p>
 
     <h2>Media files</h2>
     <p>If you choose a song, video or image as your redirect, the app copies it
@@ -83,7 +93,8 @@
 
     <h2>Notifications</h2>
     <p>The app shows local notifications, for example when the original
-      numbers are back after you turned protection off. They are created on
+      numbers are back after you turned protection off (on iPhone and iPad:
+      when you can open the app to bring them back). They are created on
       your device; no push service is used.</p>
 
     <h2>Purchases</h2>
@@ -99,16 +110,17 @@
     <h2>Data retention and your rights</h2>
     <p>All data the app uses stays on your device. The app's own storage is
       removed when you uninstall the app. If protection was still on, the
-      hidden field in a protected contact keeps the original numbers after
+      backup copy (the hidden field in a protected contact on Android, the
+      Keychain on iPhone and iPad) keeps the original numbers after
       uninstalling, so they can be restored after reinstalling. It is removed
-      when you turn protection off or delete the contact. Because we do not collect or store any data about you, we have
+      when you turn protection off. Because we do not collect or store any data about you, we have
       nothing to access, correct or delete on our side. You stay in full
       control of your data on your device.</p>
 
     <h2>Deleting your data</h2>
     <p>Turn protection off for all contacts. After 24 hours, when the
-      original numbers are back and the hidden fields are removed from your
-      contacts, uninstall the app. This removes the app's storage from your
+      original numbers are back and the backup copies are removed
+      (on iPhone and iPad: open the app once after the 24 hours), uninstall the app. This removes the app's storage from your
       device.</p>
 
     <h2>Children</h2>
